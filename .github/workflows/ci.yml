@@ -17,6 +17,5 @@ jobs:
         with:
           distribution: temurin
           java-version: 25
-          cache: maven
 
       - run: mvn clean package
